@@ -9,7 +9,7 @@ public class shoot : MonoBehaviour
     public LineRenderer lineRenderer;
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0)) { StartCoroutine(Fire(1f)); };
+        if (Input.GetMouseButtonDown(0)) { StartCoroutine(Fire(0.1f)); };
      }
       
     IEnumerator Fire(float seconds)
